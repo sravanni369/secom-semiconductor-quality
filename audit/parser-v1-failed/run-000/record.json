@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-20T18:53:31.038227+00:00",
+  "cycle": 0,
+  "contract_sha256": "d9d00464d8a6a9923c83feed091a85ea0244e346f8e53401de9eed89c1421a8a",
+  "candidate_sha256": "{\"train.py\": \"03371f9ca01ba8d16c8bb1134fa0dd5e2866db9620be25bc1c7519a721c2a18e\"}",
+  "score": null,
+  "seconds": 12.063,
+  "verdict": "ERROR",
+  "hypothesis": "Validation-only threshold trades review workload for failure recall",
+  "lesson": "Fixed book recipe; no test-driven tuning; numerical verification",
+  "error": "ValueError: Evaluator exited 1"
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-20T18:55:37.137652+00:00",
+  "cycle": 0,
+  "contract_sha256": "ed609940d4b7fe66eedd6bb04358b275f1e13021d616d3b9d9e3dc5211387a82",
+  "candidate_sha256": "{\"train.py\": \"264430c7eb33cf5c039dfe9db8e98c919aa837855c2550307662e717a99eeb0b\"}",
+  "score": 0.23529411764705882,
+  "seconds": 4.14,
+  "verdict": "VERIFIED",
+  "hypothesis": "Validation-only threshold trades review workload for failure recall",
+  "lesson": "V2 corrects quoted timestamp parsing before any model results were seen",
+  "error": ""
+}

@@ -1,0 +1,25 @@
+{
+  "rows": 1567,
+  "sensors": 590,
+  "total_failures": 104,
+  "threshold": 0.1028630847043897,
+  "split_sizes": [
+    940,
+    313,
+    314
+  ],
+  "split_failures": [
+    76,
+    11,
+    17
+  ],
+  "average_precision": 0.05116782029518209,
+  "test_prevalence": 0.054140127388535034,
+  "validation_tp": 1,
+  "validation_fp": 22
+}
+         policy  tn  fp  fn  tp   recall  precision      fpr  alert_rate  accuracy  balanced_accuracy
+    always_pass 297   0  17   0 0.000000   0.000000 0.000000    0.000000  0.945860           0.500000
+     forest_0.5 297   0  17   0 0.000000   0.000000 0.000000    0.000000  0.945860           0.500000
+validation_gate 220  77  13   4 0.235294   0.049383 0.259259    0.257962  0.713376           0.488017
+VERIFIED {"score": 0.23529411764705882, "checks_passed": true, "checks": 606, "prediction_sha256": "15d4eed98a5e1dec160ba9b59424bc4375ab10b15a385a73f61360c467d1afa2", "scope": "Numerical verification only; no independent human or agent review yet."}

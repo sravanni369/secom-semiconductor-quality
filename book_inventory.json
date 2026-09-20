@@ -1,0 +1,848 @@
+[
+  {
+    "file": "10 maths concepts for LLMs.pdf",
+    "pages": 14,
+    "text_characters": 0,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "100 practical applications and Gen AI.pdf",
+    "pages": 119,
+    "text_characters": 123365,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "100k followers linkedin.pdf",
+    "pages": 11,
+    "text_characters": 2943,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1308.3898v1.pdf",
+    "pages": 14,
+    "text_characters": 37083,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1787545525219.pdf",
+    "pages": 255,
+    "text_characters": 444341,
+    "target_code_or_dataset_pages": [
+      93,
+      99,
+      122,
+      123,
+      127,
+      128,
+      130,
+      220,
+      225,
+      226,
+      227
+    ]
+  },
+  {
+    "file": "1787722403308.pdf",
+    "pages": 7,
+    "text_characters": 1211,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1788411064626.pdf",
+    "pages": 23,
+    "text_characters": 40736,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789044449574.pdf",
+    "pages": 9,
+    "text_characters": 2664,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789083685522.pdf",
+    "pages": 18,
+    "text_characters": 54966,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789128427865.pdf",
+    "pages": 8,
+    "text_characters": 10143,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789128593155.pdf",
+    "pages": 51,
+    "text_characters": 63437,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789211723474.pdf",
+    "pages": 8,
+    "text_characters": 3532,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789291178269.pdf",
+    "pages": 21,
+    "text_characters": 20102,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789468999483.pdf",
+    "pages": 299,
+    "text_characters": 645664,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789470548756.pdf",
+    "pages": 40,
+    "text_characters": 91752,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789475221785.pdf",
+    "pages": 28,
+    "text_characters": 38134,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789475412418.pdf",
+    "pages": 9,
+    "text_characters": 20706,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789475503609.pdf",
+    "pages": 50,
+    "text_characters": 63050,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789531120188.pdf",
+    "pages": 34,
+    "text_characters": 85645,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789540724078.pdf",
+    "pages": 11,
+    "text_characters": 2943,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789688109679.pdf",
+    "pages": 41,
+    "text_characters": 82547,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "1789770700785.pdf",
+    "pages": 12,
+    "text_characters": 3016,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "25 best job portals.pdf",
+    "pages": 9,
+    "text_characters": 372,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "3 core paradigms.pdf",
+    "pages": 11,
+    "text_characters": 5384,
+    "target_code_or_dataset_pages": [
+      5,
+      11
+    ]
+  },
+  {
+    "file": "71 python projects with reference and source code.pdf",
+    "pages": 6,
+    "text_characters": 5400,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "agent tools and interoperability.pdf",
+    "pages": 49,
+    "text_characters": 59341,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Agentic AI playbook.pdf",
+    "pages": 22,
+    "text_characters": 48899,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Agentic coding with claude code.pdf",
+    "pages": 376,
+    "text_characters": 456794,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Agentic life network needs.pdf",
+    "pages": 8,
+    "text_characters": 25241,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI agents action.pdf",
+    "pages": 34,
+    "text_characters": 85645,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI agents infrastructure.pdf",
+    "pages": 7,
+    "text_characters": 12760,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI AGENTS.pdf",
+    "pages": 123,
+    "text_characters": 416691,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI at edge with ML.pdf",
+    "pages": 260,
+    "text_characters": 557464,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI BREAK THROUGH.pdf",
+    "pages": 21,
+    "text_characters": 41228,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI context engineering.pdf",
+    "pages": 12,
+    "text_characters": 32768,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI creates economic value.pdf",
+    "pages": 9,
+    "text_characters": 20706,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI Engineering with building applications models.pdf",
+    "pages": 249,
+    "text_characters": 267419,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI engineering.pdf",
+    "pages": 43,
+    "text_characters": 420,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI for datascience.pdf",
+    "pages": 295,
+    "text_characters": 398749,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI governable.pdf",
+    "pages": 116,
+    "text_characters": 267314,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI hands on experience.pdf",
+    "pages": 44,
+    "text_characters": 26241,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI shadow.pdf",
+    "pages": 15,
+    "text_characters": 27312,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI Startup Strategy.pdf",
+    "pages": 434,
+    "text_characters": 779703,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI transformations run on trust.pdf",
+    "pages": 9,
+    "text_characters": 19508,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI transformations run on.pdf",
+    "pages": 9,
+    "text_characters": 19508,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AI transparent auditable.pdf",
+    "pages": 41,
+    "text_characters": 82547,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "AIML Projects.pdf",
+    "pages": 2,
+    "text_characters": 14,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "alpha tensor.pdf",
+    "pages": 7,
+    "text_characters": 7460,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Andalibi M. Advanced MatLAB for Engineers. Integrating Theory...Programming 2026.pdf",
+    "pages": 458,
+    "text_characters": 702694,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Application management.pdf",
+    "pages": 28,
+    "text_characters": 38134,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Artificial general intelligence.pdf",
+    "pages": 57,
+    "text_characters": 141631,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Banking AI.pdf",
+    "pages": 15,
+    "text_characters": 21670,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "best websites to find jobs.pdf",
+    "pages": 12,
+    "text_characters": 9798,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "broken the token ceiling.pdf",
+    "pages": 52,
+    "text_characters": 121867,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "build 5 apps with python.pdf",
+    "pages": 6,
+    "text_characters": 25,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "BUILD AI Agents with claude steps.pdf",
+    "pages": 12,
+    "text_characters": 3523,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "building LLMS .pdf",
+    "pages": 267,
+    "text_characters": 461168,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "building LLms.pdf",
+    "pages": 267,
+    "text_characters": 461168,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "chat with your documents.pdf",
+    "pages": 71,
+    "text_characters": 124360,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "claude code guide hooks agents.pdf",
+    "pages": 289,
+    "text_characters": 274261,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "claude code prompts for personal branding.pdf",
+    "pages": 13,
+    "text_characters": 9737,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "coaching business.pdf",
+    "pages": 11,
+    "text_characters": 117,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "coaching businessbook.pdf",
+    "pages": 11,
+    "text_characters": 117,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "COMPANIES HIRING.pdf",
+    "pages": 25,
+    "text_characters": 0,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "computer architecture for emerging applications.pdf",
+    "pages": 209,
+    "text_characters": 918928,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "computer vision machine learning practical.pdf",
+    "pages": 241,
+    "text_characters": 431551,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "data science 2024 edition.pdf",
+    "pages": 299,
+    "text_characters": 224114,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "data science daily dose.pdf",
+    "pages": 299,
+    "text_characters": 224114,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Databricks.pdf",
+    "pages": 75,
+    "text_characters": 178710,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Datascience public datasets.pdf",
+    "pages": 37,
+    "text_characters": 47010,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "datascience roadmap.pdf",
+    "pages": 27,
+    "text_characters": 13025,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "deep learning AI illustrated.pdf",
+    "pages": 86,
+    "text_characters": 159669,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "DEEP LEARNING.pdf",
+    "pages": 299,
+    "text_characters": 630217,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "design LLM appln.pdf",
+    "pages": 88,
+    "text_characters": 113988,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Detecting and countering misuse of AI.pdf",
+    "pages": 154,
+    "text_characters": 264974,
+    "target_code_or_dataset_pages": [
+      107,
+      109
+    ]
+  },
+  {
+    "file": "domain specific computer architecture for ML neural netwoks.pdf",
+    "pages": 209,
+    "text_characters": 918928,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "essential guide to claude.pdf",
+    "pages": 116,
+    "text_characters": 196391,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "excel .pdf",
+    "pages": 57,
+    "text_characters": 56370,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "explore data science career.pdf",
+    "pages": 33,
+    "text_characters": 62165,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "financial analysis key points.pdf",
+    "pages": 50,
+    "text_characters": 63050,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "generative AI on AWS.pdf",
+    "pages": 100,
+    "text_characters": 117532,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "geopolitics AI.pdf",
+    "pages": 295,
+    "text_characters": 760298,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "hands on large language model.pdf",
+    "pages": 299,
+    "text_characters": 313516,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "hands on ML with scikit learn and tensorflow.pdf",
+    "pages": 200,
+    "text_characters": 0,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "hari prasad renganathan resume.pdf",
+    "pages": 2,
+    "text_characters": 7062,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "hugging face handbook.pdf",
+    "pages": 40,
+    "text_characters": 91752,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Industrial applications of intelligent agents reinforcement learning.pdf",
+    "pages": 299,
+    "text_characters": 645664,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "lang chain cheatsheet.pdf",
+    "pages": 28,
+    "text_characters": 18822,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "leetcode strivers.pdf",
+    "pages": 58,
+    "text_characters": 0,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "life cycle ML models.pdf",
+    "pages": 230,
+    "text_characters": 204908,
+    "target_code_or_dataset_pages": [
+      42,
+      49,
+      61,
+      68,
+      163,
+      175,
+      183,
+      184
+    ]
+  },
+  {
+    "file": "little book of deep learning.pdf",
+    "pages": 189,
+    "text_characters": 200907,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "low code AI project driven ML.pdf",
+    "pages": 299,
+    "text_characters": 490158,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "lowcode AI ML Project code.pdf",
+    "pages": 299,
+    "text_characters": 490158,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "machine learning python cookbook.pdf",
+    "pages": 169,
+    "text_characters": 253743,
+    "target_code_or_dataset_pages": [
+      80,
+      89,
+      90,
+      91
+    ]
+  },
+  {
+    "file": "Managing continuous improvement.pdf",
+    "pages": 208,
+    "text_characters": 412095,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "mastering AI agents.pdf",
+    "pages": 111,
+    "text_characters": 128158,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "mastering RAG.pdf",
+    "pages": 194,
+    "text_characters": 419052,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "ML WITH Scikit learn keras Tensorflow.pdf",
+    "pages": 299,
+    "text_characters": 528415,
+    "target_code_or_dataset_pages": [
+      93,
+      99,
+      122,
+      123,
+      127,
+      128,
+      130,
+      220,
+      225,
+      226,
+      227
+    ]
+  },
+  {
+    "file": "MLops_practice.pdf",
+    "pages": 231,
+    "text_characters": 387020,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "new SDLC with vibecoding.pdf",
+    "pages": 51,
+    "text_characters": 63437,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "notes on lang chain.pdf",
+    "pages": 17,
+    "text_characters": 0,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "nvidia agents.pdf",
+    "pages": 49,
+    "text_characters": 156949,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "ow I built a consistently profitable.pdf",
+    "pages": 5,
+    "text_characters": 0,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "pedagogical.pdf",
+    "pages": 98,
+    "text_characters": 236606,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "practical MLOPS.pdf",
+    "pages": 299,
+    "text_characters": 495093,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "practice data engineering python.pdf",
+    "pages": 56,
+    "text_characters": 154507,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "prompt engineering for LLM.pdf",
+    "pages": 282,
+    "text_characters": 560575,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "prompt engineering for LLMs.pdf",
+    "pages": 282,
+    "text_characters": 560575,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "prompts AI jobs finder.pdf",
+    "pages": 14,
+    "text_characters": 5479,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "python in data science.pdf",
+    "pages": 20,
+    "text_characters": 15626,
+    "target_code_or_dataset_pages": [
+      15
+    ]
+  },
+  {
+    "file": "python libraries 8 for automate life.pdf",
+    "pages": 19,
+    "text_characters": 16189,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "python projects 200 code.pdf",
+    "pages": 145,
+    "text_characters": 170551,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "Python_DataScience_Practice_Verified.pdf",
+    "pages": 10,
+    "text_characters": 13268,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "pytorch deep learning.pdf",
+    "pages": 270,
+    "text_characters": 398145,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "quamtum on hongkong banking sector.pdf",
+    "pages": 56,
+    "text_characters": 199688,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "quantum technology law and.pdf",
+    "pages": 292,
+    "text_characters": 592090,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "R and Python statistics for data scientists.pdf",
+    "pages": 295,
+    "text_characters": 528348,
+    "target_code_or_dataset_pages": [
+      280,
+      281,
+      284
+    ]
+  },
+  {
+    "file": "RAG and vector database.pdf",
+    "pages": 42,
+    "text_characters": 105336,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "reinforcement learning.pdf",
+    "pages": 299,
+    "text_characters": 645664,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "research.pdf",
+    "pages": 14,
+    "text_characters": 37083,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "scenario based DSA for engineers.pdf",
+    "pages": 38,
+    "text_characters": 30485,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "smart diagnostics and predictive maintenance.pdf",
+    "pages": 293,
+    "text_characters": 633077,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "SQL Practice book.pdf",
+    "pages": 94,
+    "text_characters": 71490,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "sql python pyspark data engineering book.pdf",
+    "pages": 121,
+    "text_characters": 121687,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "stanford ML.pdf",
+    "pages": 245,
+    "text_characters": 432431,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "statistics for AI engineers.pdf",
+    "pages": 10,
+    "text_characters": 9512,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "statistics for datascientists.pdf",
+    "pages": 295,
+    "text_characters": 528348,
+    "target_code_or_dataset_pages": [
+      280,
+      281,
+      284
+    ]
+  },
+  {
+    "file": "The Hugging Face.pdf",
+    "pages": 40,
+    "text_characters": 91752,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "think python.pdf",
+    "pages": 240,
+    "text_characters": 450190,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "tokens to trillions.pdf",
+    "pages": 10,
+    "text_characters": 30,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "transformers building blocks of LLM.pdf",
+    "pages": 51,
+    "text_characters": 70748,
+    "target_code_or_dataset_pages": []
+  },
+  {
+    "file": "trends in 2026 AI agents.pdf",
+    "pages": 49,
+    "text_characters": 35944,
+    "target_code_or_dataset_pages": []
+  }
+]

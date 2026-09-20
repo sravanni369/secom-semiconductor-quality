@@ -1,0 +1,1 @@
+First execution failed before any model fitting or test output: pandas preserved the quoted date/time as one column. Changed labels[1] + labels[2] to labels[1] with an explicit date format. No metric-driven change. V1 run and exception retained. New v2 contract freezes the same evaluator/data/plan.

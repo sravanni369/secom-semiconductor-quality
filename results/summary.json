@@ -1,0 +1,20 @@
+{
+  "rows": 1567,
+  "sensors": 590,
+  "total_failures": 104,
+  "threshold": 0.1028630847043897,
+  "split_sizes": [
+    940,
+    313,
+    314
+  ],
+  "split_failures": [
+    76,
+    11,
+    17
+  ],
+  "average_precision": 0.05116782029518209,
+  "test_prevalence": 0.054140127388535034,
+  "validation_tp": 1,
+  "validation_fp": 22
+}

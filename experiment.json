@@ -1,0 +1,26 @@
+{
+  "name": "secom-fixed-recipe-v2",
+  "mode": "verify",
+  "direction": "max",
+  "min_improvement": 0,
+  "timeout_seconds": 180,
+  "max_runs": 2,
+  "command": [
+    ".venv/Scripts/python.exe",
+    "evaluate.py",
+    "{result}"
+  ],
+  "protected": {
+    "evaluate.py": "2ab5a6e8f5b53e278a34152a3576641ba1f81f92ca9b3b1be3f26370e7f95220",
+    "experiment_plan.md": "2e31c8d1f2e571736471698bca8331e642e954c58f5ad4922d64e858f7356c29",
+    "data/secom.data": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c",
+    "data/secom_labels.data": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+  },
+  "editable": [
+    "train.py"
+  ],
+  "baselines": {
+    "always_pass": "No failure alerts",
+    "forest_0.5": "Same forest at 0.5; no validation selection"
+  }
+}

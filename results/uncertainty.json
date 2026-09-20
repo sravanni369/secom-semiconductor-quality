@@ -1,0 +1,11 @@
+{
+  "recall_95_wilson": [
+    0.09555044322080117,
+    0.4726179811956498
+  ],
+  "fpr_95_wilson": [
+    0.21271809743739542,
+    0.31194848089737426
+  ],
+  "note": "Binomial intervals assume independent observations; production temporal dependence is not modeled."
+}

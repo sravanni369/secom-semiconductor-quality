@@ -1,0 +1,7 @@
+{
+  "score": 0.23529411764705882,
+  "checks_passed": true,
+  "checks": 606,
+  "prediction_sha256": "15d4eed98a5e1dec160ba9b59424bc4375ab10b15a385a73f61360c467d1afa2",
+  "scope": "Numerical verification only; no independent human or agent review yet."
+}
