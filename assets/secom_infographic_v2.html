@@ -1,0 +1,79 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>SECOM audit</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden;background:#0f62d6}
+.frame{position:absolute;inset:14px;background:#fff;padding:40px 46px 34px;font-family:'EB Garamond',serif;color:#37425c}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:16px;letter-spacing:3px;color:#0f62d6;text-transform:uppercase}
+h1{font-size:58px;line-height:1.02;color:#0d1b2a;font-weight:700;margin-top:10px}
+h1 span{color:#0f62d6}
+.sub{font-size:22px;color:#44506b;margin-top:12px;line-height:1.35}
+.sub b{color:#0d1b2a}
+.row{display:flex;gap:22px;margin-top:20px;align-items:stretch}
+.card{flex:1 1 0;border:1px solid;border-radius:14px;padding:20px 22px;position:relative}
+.c1{border-color:#0f62d6;background:rgba(15,98,214,.07)}.c1 .t,.c1 .big{color:#0b4bb3}.c1 .pill{border-color:#0f62d6;color:#0f62d6}.c1 li::before{background:#0f62d6}
+.c2{border-color:#12915a;background:rgba(18,145,90,.09)}.c2 .t,.c2 .big{color:#0e7a4b}.c2 .pill{border-color:#12915a;color:#0e7a4b}.c2 li::before{background:#12915a}
+.c3{border-color:#e0a800;background:rgba(224,168,0,.14)}.c3 .t,.c3 .big{color:#8a6a00}.c3 .pill{border-color:#e0a800;color:#8a6a00}.c3 li::before{background:#e0a800}
+.pill{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:1px;border:1px solid;border-radius:999px;padding:3px 10px}
+.t{font-size:25px;font-weight:700;margin-top:10px;line-height:1.1}
+.big{font-size:44px;font-weight:700;line-height:1;margin-top:8px}
+ul{list-style:none;margin-top:10px}
+li{font-size:18px;line-height:1.35;padding-left:18px;position:relative;margin-top:5px}
+li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%}
+li b{color:#0d1b2a}
+.term{flex:1.15 1 0;background:#0d1b2a;border:1px solid #1c3355;border-radius:12px;overflow:hidden;font-family:'JetBrains Mono',monospace}
+.bar{background:#0a1424;padding:9px 14px;display:flex;align-items:center;gap:8px;font-size:12px;color:#7d90ad}
+.dot{width:10px;height:10px;border-radius:50%}
+.body{padding:14px 16px;font-size:14.5px;line-height:1.55;color:#d6e2f2;white-space:pre}
+.b{color:#6fa8ff}.g{color:#4fd18b}.y{color:#ffcc4d}.m{color:#6b7c96}
+.punch{border-top:1px solid #d7e0ee;margin-top:22px;padding-top:14px;font-size:23px;color:#44506b;line-height:1.3}
+.punch b{color:#0e7a4b}
+.foot{position:absolute;left:46px;right:46px;bottom:26px;border-top:1px solid #d7e0ee;padding-top:12px;display:flex;justify-content:space-between;font-size:16px;color:#5a6472}
+</style></head><body><div class="frame">
+<div class="kicker">SECOM · Manufacturing quality audit · 50-line Python core</div>
+<h1>94.6% accuracy. <span>Zero</span> failures caught.</h1>
+<div class="sub">Aurelien Geron's Random Forest recipe, run as printed on <b>UCI SECOM</b>: 1,567 wafer records, 590 sensor columns, 104 failures. Chronological test split: <b>314 records, 17 failures</b>. Every number below is from <b>results/metrics.csv</b>.</div>
+
+<div class="row">
+  <div class="card c1"><span class="pill">STEP 1 · DEFAULT</span><div class="t">Threshold 0.5</div><div class="big">0 / 17 caught</div>
+    <ul><li><b>94.6% accuracy</b>, identical to predicting "pass" for every wafer</li><li>Accuracy tells you the <b>class balance</b>, not the model</li></ul></div>
+  <div class="term"><div class="bar"><span class="dot" style="background:#ff5f56"></span><span class="dot" style="background:#ffbd2e"></span><span class="dot" style="background:#27c93f"></span>train.py</div>
+<div class="body">model = <span class="b">make_pipeline</span>(
+    <span class="b">SimpleImputer</span>(strategy=<span class="y">'median'</span>,
+                  keep_empty_features=<span class="g">True</span>),
+    <span class="b">RandomForestClassifier</span>(n_estimators=<span class="y">500</span>,
+        max_leaf_nodes=<span class="y">16</span>, random_state=<span class="y">42</span>))
+model.fit(X[train], y[train])
+threshold = <span class="b">max</span>(choices)[<span class="y">2</span>]
+scores = model.predict_proba(X[test])[:, <span class="y">1</span>]
+<span class="m"># choices: thresholds under a 10% false-alarm cap</span></div></div>
+</div>
+
+<div class="row">
+  <div class="term"><div class="bar"><span class="dot" style="background:#ff5f56"></span><span class="dot" style="background:#ffbd2e"></span><span class="dot" style="background:#27c93f"></span>results/metrics.csv</div>
+<div class="body"><span class="m">policy            tn   fp  fn  tp  recall   fpr</span>
+always_pass      <span class="g">297</span>    0  17   0   <span class="y">0.000</span>  0.000
+forest_0.5       <span class="g">297</span>    0  17   0   <span class="y">0.000</span>  0.000
+validation_gate  220   <span class="y">77</span>  13   <span class="g">4</span>   0.235  <span class="y">0.259</span>
+
+<span class="m">validation FPR  22/302 = 7.28%</span>
+<span class="m">test FPR        77/297 = 25.93%</span></div></div>
+  <div class="card c2"><span class="pill">STEP 2 · VALIDATION GATE</span><div class="t">Threshold 0.1029, chosen on validation</div><div class="big">4 caught, 77 false alarms</div>
+    <ul><li>False-alarm rate <b>7.3% on validation</b>, <b>25.9% on the later test</b></li><li>A validation constraint is <b>not a deployment guarantee</b></li></ul></div>
+</div>
+
+<div class="row">
+  <div class="card c3"><span class="pill">STEP 3 · WHAT IT MEANS</span><div class="t">Worse than doing nothing</div><div class="big">48.8% vs 50%</div>
+    <ul><li>Gate precision <b>4.9%</b>; balanced accuracy <b>48.8%</b> against <b>50%</b> for always-pass</li><li>Bounds the <b>untuned book recipe</b>: no class weights, no feature selection, no tuning</li></ul></div>
+  <div class="term"><div class="bar"><span class="dot" style="background:#ff5f56"></span><span class="dot" style="background:#ffbd2e"></span><span class="dot" style="background:#27c93f"></span>python evaluate.py</div>
+<div class="body"><span class="g">VERIFIED</span> {"score": <span class="y">0.2353</span>,
+  "checks_passed": <span class="g">true</span>, "checks": <span class="y">606</span>,
+  "prediction_sha256": "<span class="b">15d4eed9…1afa2</span>"}
+<span class="m">two runs, identical predictions</span>
+<span class="m">python 3.12 · scikit-learn 1.9.1</span></div></div>
+</div>
+
+<div class="punch"><b>Not ready for a real line.</b> Worth publishing anyway: the failure mode is the lesson, and the numbers are reproducible.</div>
+<div class="foot"><span>Follow Lakshmi Sravani Putta on LinkedIn</span><span>github.com/sravanni369/secom-semiconductor-quality</span></div>
+</div></body></html>
