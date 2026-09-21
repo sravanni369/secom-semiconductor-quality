@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "C:\Users\laksh\Documents\Codex\2026-09-13\pu\secom-semiconductor-quality\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+  File "<project>\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
     return self._engine.get_loc(casted_key)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
@@ -11,18 +11,18 @@ KeyError: 2
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "C:\Users\laksh\Documents\Codex\2026-09-13\pu\secom-semiconductor-quality\evaluate.py", line 11, in <module>
+  File "<project>\evaluate.py", line 11, in <module>
     ns = runpy.run_path(str(root / 'train.py'))
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "<frozen runpy>", line 287, in run_path
   File "<frozen runpy>", line 98, in _run_module_code
   File "<frozen runpy>", line 88, in _run_code
-  File "C:\Users\laksh\Documents\Codex\2026-09-13\pu\secom-semiconductor-quality\train.py", line 12, in <module>
+  File "<project>\train.py", line 12, in <module>
     dates = pd.to_datetime(labels[1] + ' ' + labels[2], dayfirst=True)
                                              ~~~~~~^^^
-  File "C:\Users\laksh\Documents\Codex\2026-09-13\pu\secom-semiconductor-quality\.venv\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+  File "<project>\.venv\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
     indexer = self.columns.get_loc(key)
               ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\laksh\Documents\Codex\2026-09-13\pu\secom-semiconductor-quality\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+  File "<project>\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
     raise KeyError(key) from err
 KeyError: 2

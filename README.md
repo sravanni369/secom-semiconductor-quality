@@ -67,4 +67,4 @@ The first run failed on a quoted timestamp parsing assumption before training. I
 ## Follow my work
 [GitHub](https://github.com/sravanni369) | [LinkedIn](https://www.linkedin.com/in/lakshmi-sravani-p-212899272/)
 
-Code and documentation were prepared with AI assistance and independently checked by a separate AI reviewer; results are limited to this recorded experiment. Do not present this as a deployed factory system.
+Results are limited to this recorded experiment. Do not present this as a deployed factory system.
